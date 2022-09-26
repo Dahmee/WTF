@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: purple;
+}
+.hero-section {
+  background-image: url("../images/image.jpg");
+  background-color: #cccccc;
+  width: 100%;
+  height: 740px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fa-solid {
+  display: hidden;
+}
+.nav-items {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 26px;
+  padding-right: 92px;
+  padding-bottom: 26px;
+}
+
+.nav-list-item {
+  font-family: "Lato";
+  display: flex;
+  color: #a6a6a6;
+  margin-left: 30px;
+  line-height: 19px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.hero-content-wrapper {
+  width: 100%;
+  max-width: 1240px;
+  height: 503.41;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 110px;
+}
+
+h1 {
+  width: 100%;
+  max-width: 378px;
+  height: 116px;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 24px;
+}
+.hero-content-wrapper p {
+  width: 100%;
+  max-width: 467px;
+  height: 144px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato";
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  padding: 26px 62px;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 22px;
+}
+.icons {
+  height: 119.41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.icons i {
+  color: #404040;
+  font-size: 24px;
+  line-height: 19.5px;
+}
+.icons .one {
+  margin-top: 0;
+}
+
+/* Second page begins here */
+.second-section-wrapper {
+  margin-top: 69px;
+  display: flex;
+  width: 1240px;
+  margin-bottom: 0px;
+}
+.second-page-image {
+  margin-right: 20px;
+  width: 100%;
+  max-width: 505px;
+  height: 636.78px;
+  background-image: url(../images/about-me.png);
+  background-size: cover;
+}
+aside {
+  margin-top: 17px;
+  margin-bottom: 60px;
+  width: 715px;
+  height: 563px;
+}
+aside h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  line-height: 21px;
+  color: #404040;
+}
+.aside-section .second-p {
+  font-family: "Lato", sans-serif;
+  max-width: 715px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404040;
+  width: 715px;
+  height: 504px;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-top: 38px;
+}
+
+/* thirdpage */
+.gallery-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1342px;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 56px;
+  overflow: hidden;
+}
+.gallery-page h2 {
+  padding-bottom: 16px;
+  font-family: "Lato";
+  font-size: 32px;
+  line-height: 21px;
+  color: #404040;
+}
+.gallery-page p {
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 21px;
+  color: #404040;
+}
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 1261px; */
+  margin-left: 100px;
+}
+.gallery-item {
+  width: 400px;
+  height: 516px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.right-image {
+  margin-right: 0px;
+}
+.gallery-page-btn {
+  background-color: transparent;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 21px;
+  color: #404040;
+  padding-top: 27px;
+  padding-right: 18px;
+  padding-bottom: 26px;
+  padding-left: 42px;
+}
+.fa-solid {
+  font-size: 36px;
+  margin-left: 18px;
+}
+@media (max-width: 768px) {
+  .nav-list-item {
+    display: none;
+  }
+  .hero-btn {
+    display: none;
+  }
+  .fa-brands {
+    display: none;
+  }
+  .fa-solid {
+    display: block;
+    padding-top: 37px;
+    padding-left: 20px;
+    font-size: 24px;
+    height: 18px;
+    color: #404040;
+  }
+  .hero-section {
+    background-image: url("../images/mobile-image.jpg");
+    background-size: cover;
+    height: 896px;
+    /* background-position: top; */
+  }
+  .hero-content-wrapper {
+    background-color: transparent;
+    margin-top: 511px;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .hero-content-wrapper h1 {
+    max-width: 189px;
+    font-family: "Lato", san-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #f2f2f2;
+    margin-bottom: 16px;
+    height: 58px;
+  }
+  .hero-content-wrapper p {
+    width: 284px;
+    font-family: "Lato", san-serif;
+    font-size: 12px;
+    line-height: 18px;
+    height: 126px;
+    margin-top: 0px;
+    color: #f2f2f2;
+    height: 126px;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+}
